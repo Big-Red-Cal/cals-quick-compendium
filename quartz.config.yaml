@@ -1,20 +1,20 @@
 # yaml-language-server: $schema=./quartz/plugins/quartz-plugins.schema.json
 configuration:
-  pageTitle: Quartz 5
-  pageTitleSuffix: ""
+  pageTitle: Cal's Pedagogical Compendium
+  pageTitleSuffix: "Cal's Compendium"
   enableSPA: true
   enablePopovers: true
-  analytics:
-    provider: plausible
-  locale: en-US
-  baseUrl: cqc.callumadams.net
+  analytics: null
+  locale: en-GB
+  baseUrl: cpc.callumadams.net
   ignorePatterns:
     - private
     - templates
+    - wip
     - .obsidian
   theme:
-    fontOrigin: googleFonts
-    cdnCaching: true
+    fontOrigin: local
+    cdnCaching: false
     typography:
       header: Schibsted Grotesk
       body: Source Sans Pro
